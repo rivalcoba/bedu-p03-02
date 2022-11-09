@@ -6,7 +6,7 @@
     "start": "node ./dist/bin/www",
     "dev": "DEBUG='server' babel-watch ./bin/www.js",
     "clean": "rm -rf dist",
-    "build": "npm run clean && babel . --out-dir dist --ignore './node_modules' --copy-files --no-copy-ignored"
+    "build": "npm run clean && babel . --out-dir dist --copy-files --no-copy-ignored"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
