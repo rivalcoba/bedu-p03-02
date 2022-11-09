@@ -5,7 +5,7 @@
  */
 
 var app = require('../app');
-var debug = require('debug')('ph03-finalprj-02:server');
+var debug = require('debug')('server');
 var http = require('http');
 
 /**
